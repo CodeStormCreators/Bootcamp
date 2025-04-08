@@ -1,23 +1,23 @@
-import React from 'react'
-import Counter from './pages/counter'
-import UserList from './pages/UserList'
-import { Route, Routes } from 'react-router-dom'
-import ContactForm from './pages/ContactForm'
+import React from "react";
+import Counter from "./pages/counter";
+import UserList from "./pages/UserList";
+import { Route, Routes } from "react-router-dom";
+import ContactForm from "./pages/ContactForm";
 
 const App = () => {
-  
   return (
     <>
-{/*       
+      {/*       
       <Counter />
       <UserList /> */}
-      <Routes>
+      {/* <Routes>
         <Route path="/" element={<Counter />} />
         <Route path="/userlist" element={<UserList />} />
       </Routes>
-      <ContactForm/>
+      <ContactForm/> */}
+      <h1>Hi</h1>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
